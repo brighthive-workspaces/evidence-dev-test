@@ -1,0 +1,10 @@
+# This file was automatically generated
+name: brighthive_dev_redshift
+type: redshift
+options:
+  database: workspace-database
+  host: brighthive-redshift-serverless-workgroup.590183722466.us-east-1.redshift-serverless.amazonaws.com
+  port: 5439
+  ssl:
+    rejectUnauthorized: true
+  _ssl: true
