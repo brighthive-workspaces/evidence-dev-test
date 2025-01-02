@@ -5,6 +5,7 @@ title: Test of Evidence Dashboard for Brighthive
 <Details title='How to edit this page'>
 
   This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
+  Testing auto trigger from github to amplify
 </Details>
 
 ```sql categories
