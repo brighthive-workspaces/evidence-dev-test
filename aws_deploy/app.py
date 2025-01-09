@@ -54,7 +54,7 @@ def deploy_amplify_app(app_name, repo_url, branch_name, build_image, build_direc
         print(f"Amplify app created with App ID: {app_id}")
       
         # add it to dynamodb
-        full_url = 'https://' + branch_name + app_url
+        full_url = 'https://' + branch_name + '.' + app_url
         # we should use the uuid instaed of the app_id here
         add_amplify_url('amplifyUrls', full_url, app_id)
 
@@ -98,6 +98,6 @@ if __name__ == "__main__":
         '_CUSTOM_IMAGE': 'public.ecr.aws/docker/library/node:20-bookworm'
     }
 
-    APP_NMAE = 'evidence_deploy_script_1'
+    APP_NMAE = 'evidence_deploy_script_3'
 
     deploy_amplify_app(APP_NMAE, REPO_URL, BRANCH_NAME, BUILD_IMAGE, BUILD_DIRECTORY, ENV_VARS)
