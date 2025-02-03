@@ -1,5 +1,5 @@
 ---
-title: Test of Evidence Dashboard for Brighthive
+title: Test of Evidence Dashboard for Brighthive test
 ---
 
 <Details title='How to edit this page'>
