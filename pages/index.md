@@ -1,11 +1,10 @@
 ---
-title: Test of Evidence Dashboard for Brighthive
+title: Student Data Trends
 ---
 
-<Details title='How to edit this page'>
+<Details title='Key Trends in Student Data'>
 
   This page can be found in your project at `/pages/index.md`. Make a change to the markdown file and save it to see the change take effect in your browser.
-  Testing auto trigger from github to amplify
 </Details>
 
 ```sql categories
@@ -40,18 +39,20 @@ title: Test of Evidence Dashboard for Brighthive
 
 <BarChart
     data={orders_by_category}
-    title="Sales by Month, {inputs.category.label}"
+    title="Enrollments By Month, {inputs.category.label}"
     x=month
     y=sales_usd
     series=category
 />
 
-## What's Next?
-- [Connect your data sources](settings)
-- Edit/add markdown files in the `pages` folder
-- Deploy your project with [Evidence Cloud](https://evidence.dev/cloud)
+## Key Metrics and Observations
+- Enrollment has been increasing steadily since 2019
+- Graduation rates have been consistent
+- Grades have been improving over time
 
-## Get Support
-- Message us on [Slack](https://slack.evidence.dev/)
-- Read the [Docs](https://docs.evidence.dev/)
-- Open an issue on [Github](https://github.com/evidence-dev/evidence)
+## Not seeing the data you hoped?
+- [Connect additional student data sources](settings)
+- Ask brightbot to provide additional metrics and visualizations with the new data
+- Edit/add markdown files in the `pages` folder yourself
+
+
