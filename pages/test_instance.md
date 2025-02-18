@@ -6,8 +6,6 @@ from
     brighthive_dev_redshift.academic_performance
 where
     final_grade = 'A'
-group by
-    course_id
 order by
     attendance_rate desc;
 ```
