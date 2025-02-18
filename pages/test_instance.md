@@ -1,7 +1,7 @@
 ```sql attendance_by_course
 select
     course_id,
-    avg(attendance_rate) as avg_attendance_rate
+    attendance_rate
 from
     brighthive_dev_redshift.academic_performance
 where
@@ -9,13 +9,13 @@ where
 group by
     course_id
 order by
-    avg_attendance_rate desc;
+    attendance_rate desc;
 ```
 
 <BarChart
     data={attendance_by_course}
     x=course_id
-    y=avg_attendance_rate
+    y=attendance_rate
     labels=true
     yFmt="0.0%"
     colorPalette={["#76b7b2"]}
