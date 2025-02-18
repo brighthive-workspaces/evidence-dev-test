@@ -1,5 +1,4 @@
-```sql
-attendance_by_course
+```sql attendance_by_course
 select
     course_id,
     avg(attendance_rate) as avg_attendance_rate
