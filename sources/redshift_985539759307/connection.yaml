@@ -1,0 +1,9 @@
+name: redshift_985539759307
+    type: redshift
+    options:
+    database: workspace-database
+    host: brighthive-redshift-serverless-workgroup.985539759307.us-east-1.redshift-serverless.amazonaws.com
+    port: 5439
+    ssl:
+        rejectUnauthorized: true
+    _ssl: true
