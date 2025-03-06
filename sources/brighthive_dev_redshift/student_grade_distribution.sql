@@ -2,7 +2,7 @@ SELECT
     final_grade,
     COUNT(*) AS student_count
 FROM
-    brighthive_dev_redshift.academic_performance
+    database_891377033216.academic_performance
 GROUP BY
     final_grade
 ORDER BY
