@@ -1,1 +1,0 @@
-SELECT * FROM database_891377033216.brighthive_enrollment_data_collection_worksheet__hennepin_tc_ 
