@@ -1,1 +1,0 @@
-SELECT * FROM database_891377033216.academic_performance_1738358525184
